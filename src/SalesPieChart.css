@@ -1,0 +1,67 @@
+.chart-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    min-width: 10%;
+  }
+  
+  .sales-pie-chart {
+    flex: 2;
+  }
+  
+  .pie-chart-container {
+    position: relative;
+    height: 300px;
+  }
+  
+  .pie-chart-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .total-label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .total-value {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .pie-chart-legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  .legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .pie-chart-percentages {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .percentage {
+    font-size: 18px;
+    font-weight: 600;
+  }
